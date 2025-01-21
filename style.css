@@ -1,12 +1,33 @@
 body{
     border: 0;
     padding: 0;
+    background-color:palegoldenrod;
 }
 
-.fancy-button{
+.flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.paragraphs{
+    color: #16252c;
+    border: solid 5px #16252c;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+/*BUTTON*/
+
+.cat{
     padding: 10px 15px;
     font-size: 18px;
-    background-color: #a0b89f;
+    background-color: salmon;
     color:#3f5b68;
     border: none;
     border-radius: 8px;
@@ -18,7 +39,14 @@ body{
 
 }
 
-.fancy-button:hover{
+.cat:hover{
     transform: translateY(-10px) scale(1.1);
     background-color: #E1D5A9;
-    box-shadow: 0 8px 20px #3f5b68;
+    box-shadow: 0 8px 20px salmon;
+}
+
+.cat:active{
+    background-color: #16252c;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px salmon;
+}
