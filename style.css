@@ -1,0 +1,24 @@
+body{
+    border: 0;
+    padding: 0;
+}
+
+.fancy-button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #a0b89f;
+    color:#3f5b68;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-property: transform, background-color, box-shadow;
+    transition-duration: 0.3s;
+    transition-duration: ease;
+    transition-delay: 0s;
+
+}
+
+.fancy-button:hover{
+    transform: translateY(-10px) scale(1.1);
+    background-color: #E1D5A9;
+    box-shadow: 0 8px 20px #3f5b68;
